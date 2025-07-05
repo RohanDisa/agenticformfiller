@@ -8,7 +8,6 @@ This project is a modular, Python-based automation tool designed to fill out web
 
 - 🎯 Smart button/link decisioning (e.g., choosing "Next", "Submit", etc.)
 
-- 🧩 Modular architecture using just two files: main.py and form_engine.py
 
 ## Setup Instructions
 
