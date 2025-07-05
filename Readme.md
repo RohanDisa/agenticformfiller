@@ -20,23 +20,27 @@ This project is a modular, Python-based automation tool designed to fill out web
 ```
 
 2. Install dependencies
+```bash
 Make sure you’re using Python 3.9+
 
 pip install -r requirements.txt
-
+```
 
 3. Add your Groq API key
+```bash
 In core.py, replace:
 
 GroqProvider(api_key="<your_groq_api_key>")
 with your actual key.
+```
 
 ## Usage
+```bash
 Just run the main script:
 
 python main.py
 It will launch a browser, navigate to the form, analyze the inputs, and intelligently fill and proceed through the pages.
-
+```
 ## Collaboration
 Currently configured for ApplyWeb forms, but extensible.
 
