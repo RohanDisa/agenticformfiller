@@ -1,19 +1,17 @@
-🧠 AutoFormFiller – Smart Form Automation with AI
+# 🧠 AutoFormFiller – Smart Form Automation with AI
 This project is a modular, Python-based automation tool designed to fill out web forms intelligently using a language model and Selenium. It scrapes form fields, matches them against structured user info, and uses LLM reasoning to auto-complete and navigate forms like a human would.
 
-🚀 Features
-✅ Dynamic form field extraction using Selenium
+## 🚀 Features
+- ✅ Dynamic form field extraction using Selenium
 
-🧠 LLM-assisted reasoning to select values for each field
+- 🧠 LLM-assisted reasoning to select values for each field
 
-🎯 Smart button/link decisioning (e.g., choosing "Next", "Submit", etc.)
+- 🎯 Smart button/link decisioning (e.g., choosing "Next", "Submit", etc.)
 
-🧩 Modular architecture using just two files: main.py and form_engine.py
+- 🧩 Modular architecture using just two files: main.py and form_engine.py
 
 📁 File Structure
-bash
-Copy
-Edit
+
 .
 ├── main.py            # Main script – handles logic flow, automation loop
 ├── core.py     # Shared components: schemas, driver/model setup, helpers
