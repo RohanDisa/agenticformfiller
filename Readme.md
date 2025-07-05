@@ -10,27 +10,24 @@ This project is a modular, Python-based automation tool designed to fill out web
 
 - 🧩 Modular architecture using just two files: main.py and form_engine.py
 
-📁 File Structure
+## 📁 Project Structure
 
 .
-├── main.py            # Main script – handles logic flow, automation loop
-├── core.py     # Shared components: schemas, driver/model setup, helpers
-└── README.md
-🛠️ Setup Instructions
+├── main.py          # Main script – automation loop
+├── form_engine.py   # Shared components: schemas, driver/model setup
+└── README.md        # Project documentation
+## 🛠️ Setup Instructions
+
 1. Clone the repo
-bash
-Copy
-Edit
+
 git clone https://github.com/RohanDisa/autoformfiller.git
 cd autoformfiller
+
 2. Install dependencies
 Make sure you’re using Python 3.9+
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Example packages used:
+
 
 undetected-chromedriver
 
