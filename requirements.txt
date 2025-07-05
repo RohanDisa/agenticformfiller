@@ -1,0 +1,5 @@
+undetected-chromedriver
+selenium
+pydantic
+pydantic-ai
+pydantic-ai[groq]

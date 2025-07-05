@@ -10,12 +10,6 @@ This project is a modular, Python-based automation tool designed to fill out web
 
 - 🧩 Modular architecture using just two files: main.py and form_engine.py
 
-## 📁 Project Structure
-
-.
-├── main.py          # Main script – automation loop
-├── form_engine.py   # Shared components: schemas, driver/model setup
-└── README.md        # Project documentation
 ## 🛠️ Setup Instructions
 
 1. Clone the repo
@@ -29,35 +23,19 @@ Make sure you’re using Python 3.9+
 pip install -r requirements.txt
 
 
-undetected-chromedriver
-
-selenium
-
-pydantic
-
-pydantic-ai
-
-pydantic-ai[groq]
-
 3. Add your Groq API key
-In form_engine.py, replace:
+In core.py, replace:
 
-python
-Copy
-Edit
 GroqProvider(api_key="<your_groq_api_key>")
 with your actual key.
 
 🧪 Usage
 Just run the main script:
 
-bash
-Copy
-Edit
 python main.py
 It will launch a browser, navigate to the form, analyze the inputs, and intelligently fill and proceed through the pages.
 
-📌 Notes
+📌 Collaboration
 Currently configured for ApplyWeb forms, but extensible.
 
 Add logic as needed in main.py to fit additional forms or field types.
