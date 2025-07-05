@@ -10,12 +10,14 @@ This project is a modular, Python-based automation tool designed to fill out web
 
 - 🧩 Modular architecture using just two files: main.py and form_engine.py
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repo
 
-git clone https://github.com/RohanDisa/autoformfiller.git
-cd autoformfiller
+ ```bash
+    git clone https://github.com/RohanDisa/autoformfiller.git
+    cd autoformfiller
+```
 
 2. Install dependencies
 Make sure you’re using Python 3.9+
@@ -29,13 +31,13 @@ In core.py, replace:
 GroqProvider(api_key="<your_groq_api_key>")
 with your actual key.
 
-🧪 Usage
+## Usage
 Just run the main script:
 
 python main.py
 It will launch a browser, navigate to the form, analyze the inputs, and intelligently fill and proceed through the pages.
 
-📌 Collaboration
+## Collaboration
 Currently configured for ApplyWeb forms, but extensible.
 
 Add logic as needed in main.py to fit additional forms or field types.
