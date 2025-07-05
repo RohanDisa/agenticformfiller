@@ -35,12 +35,12 @@ with your actual key.
 ```
 
 ## Usage
-```bash
+
 Just run the main script:
 
 python main.py
 It will launch a browser, navigate to the form, analyze the inputs, and intelligently fill and proceed through the pages.
-```
+
 ## Collaboration
 Currently configured for ApplyWeb forms, but extensible.
 
